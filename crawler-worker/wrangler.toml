@@ -1,0 +1,10 @@
+name = "info-dashboard-cron"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+PAGES_URL = "https://info-dashboard.pages.dev"
+
+# Trigger every day at 22:00 UTC (7:00 AM KST)
+[[triggers]]
+crons = [ "0 22 * * *" ]

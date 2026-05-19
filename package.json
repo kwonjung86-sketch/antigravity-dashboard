@@ -1,0 +1,11 @@
+{
+  "name": "info-dashboard",
+  "version": "1.0.0",
+  "description": "Personal Information and Saju Dashboard",
+  "scripts": {
+    "dev": "wrangler pages dev public"
+  },
+  "devDependencies": {
+    "wrangler": "^3.55.0"
+  }
+}
