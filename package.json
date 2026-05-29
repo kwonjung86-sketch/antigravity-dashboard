@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Personal Information and Saju Dashboard",
   "scripts": {
-    "dev": "wrangler pages dev public"
+    "dev": "wrangler pages dev public --d1=DB",
+    "deploy": "wrangler pages deploy public --project-name antigravity-dashboard"
   },
   "devDependencies": {
     "wrangler": "^3.55.0"
