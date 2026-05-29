@@ -1,3 +1,8 @@
 name = "antigravity-dashboard"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "info_db"
+database_id = "d0a7de77-c90e-4b32-b774-c3e02d4c69ae"
